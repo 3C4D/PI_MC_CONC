@@ -5,7 +5,9 @@ plusieurs threads POSIX (pthreads).
 
 # Compilation
 
-`make`
+```
+make
+```
 
 # Exécution
 
