@@ -5,6 +5,6 @@
 
 typedef struct {
   int score;
-} retour_pi_t;
+} donnees_pi_t;
 
 #endif

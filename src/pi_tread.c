@@ -11,7 +11,7 @@ extern int nb_tirage;
 void *calcul_pi(void *arg){
   int i, score, nb_tirage_local;
   double x, y;
-  retour_pi_t *retour = malloc(sizeof(retour_pi_t));
+  donnees_pi_t *donnees = (donnees_pi_t *)arg;
 
   score = 0;
   nb_tirage_local = nb_tirage/nb_thread;
@@ -23,7 +23,7 @@ void *calcul_pi(void *arg){
     score += (x * x + y * y <= 1);
   }
 
-  retour->score = score;
+  donnees->score = score;
 
-  return retour;
+  return NULL;
 }
