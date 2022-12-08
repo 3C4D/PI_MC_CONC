@@ -17,5 +17,5 @@ Usage : ./bin/PI_CONC <nb_tirage> [nb_thread]
     - nb_thread : nombre de threads souhaités
 ```
 
-L'indication du nombre de thread est optionnel, il est mis par défaut au nombre
-de processeurs disponibles sur la machine courante.
+L'indication du nombre de thread est optionnelle, il est mis par défaut au
+nombre de processeurs disponibles sur la machine courante.
